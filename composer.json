@@ -1,0 +1,29 @@
+{
+    "name": "bubnovKelnik/part-translate",
+    "description": "Twig filter, translates parts of the string",
+    "keywords":["twig", "filter", "translate", "parts"],
+    "type":"library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": "~1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "BubnovKelnik\\PartTranslate\\": "src/PartTranslate"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mihail Bubnov",
+            "email": "bubnov.mihail@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
